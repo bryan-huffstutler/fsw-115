@@ -1,0 +1,59 @@
+{
+  "menu": {
+    "appetizers": [{"Buffalo Wings" :{
+          "ingredients": ["Buffalo Sauce", "Chicken Wing"],
+          "description": "Chicken Wings smothered in our home made Buffalo sauce!"
+        }
+      },
+      {"Mozzarella Sticks": {
+          "ingredients": ["Mozzarella", "Beer Battered Breading"],
+          "description": "Mozzarella dipped in our signature Beer Battered breading!"
+        }
+      }
+    ],
+    "cold sandwhiches": [{"Cold Cut Trio" :{
+      "ingredients": ["Ham", "Turkey", "Salami"],
+      "description": "Sliced ham, turkey and salami on wheat bread. Served with American cheese, lettuce, tomatoes, and red onions."
+        }
+      },
+      {"Italian Sub": {
+          "ingredients": ["Ham", "Postrami", "Salami", "Italian Herb Bread"],
+          "description": "A mix of ham, postrami, and salami served on Italian Herb Bread with lettuce, tomatoes, bell peppers and our home made italian spread."
+        }
+      }
+    ],
+    "hot sandwhiches": [{"Pizza Sub" :{
+          "ingredients": ["Pepperoni Slices", "Marinara Sauce", "Mozzarella", "White Bread"],
+          "description": "Slices of pepperoni piled high on white bread, smothered in marinara sauce and mozzarella cheese."
+        }
+      },
+      {"Chicken Bacon Ranch": {
+          "ingredients": ["Swiss Cheese", "Chicken", "Bacon", "Ranch", "Wheat Bread"],
+          "description": "Chicken grilled to perfection, crispy fried bacon crumbled into ranch sauce and spread across the chicken on wheat bread."
+        }
+      }
+    ],
+    "desserts": [{"Ice Cream Sandwhiches" :{
+          "ingredients": ["Sugar", "Eggs", "Baking Powder", "Vanilla Extract", "Vanilla Ice Cream", "Cocoa"],
+          "description": "Vanilla ice cream smushed between freshly baked cocoa cookies!"
+        }
+      },
+      {"Hot Fudge Sundae": {
+          "ingredients": ["Vanilla Ice Cream","Fudge", "Cherries"],
+          "description": "Ice cream smothered in hot fudge and topped with cherries."
+        }
+      }
+    ],
+    "drinks": [{"Alibaba" :{
+          "ingredients": ["Rum", "Vodka", "Everclear", "Tea"],
+          "description": "Tea mixed with generous amounts of rum, vodka and everclear"
+        }
+      },
+      {"Screwdriver": {
+          "ingredients": ["Orange Juice", "Vodka"],
+          "description": "3/4 Vodka, 1/4 Orange Juice. Very Strong."
+        }
+      }
+    ]
+  }
+}
