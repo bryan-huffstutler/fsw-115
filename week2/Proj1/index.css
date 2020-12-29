@@ -1,0 +1,16 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(55, 55, 116);
+}
+li {
+  background-color: rgb(83, 77, 77);
+  margin: 15px;
+  border-radius: 6px;
+  list-style-position: inside;
+  text-align: center;
+  color: rgb(155, 155, 238)
+}
