@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: indigo;
+}
+
+a {
+  font-size: 30px;
+  color: aqua;
+  text-decoration: none;
+  float: right;
+  padding-right: 30px;
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+main{
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main > div{
+  grid-column: 2/3;
+}
+
+h3{
+  text-align: center;
+  background-color: grey;
+  grid-column: 2/3;
+  border-radius: 50px;
+}
