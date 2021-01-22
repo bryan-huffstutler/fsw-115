@@ -5,12 +5,13 @@ let output = document.getElementById("todos")
 let getTodos = function () {axios.get("https://api.vschool.io/bryanhuffstutler/todo")
 .then(res => {
   for (let i=0; i<res.data.length; i++){
-    let li = document.createElement("li")
+    let li = document.createElement("li")    
     let btn = document.createElement("button")
     let box = document.createElement("input")
     box.type = "checkbox"
     btn.textContent = "Delete"
     btn.classList.add("del")
+    li.setAttribute(`id`, res.data[i]._id)
     li.innerHTML = res.data[i].title
     if (res.data[i].completed === true){
       li.style.textDecoration = "line-through";
@@ -63,7 +64,10 @@ output.addEventListener("click", function (e){
   let deleteBtn = document.getElementsByClassName("del")
   for(i=0; i<deleteBtn.length; i++){
     if(e.target == deleteBtn[i]){
-      console.log("hi")
+      let x = deleteBtn[i].parentNode
+      let id = x.id
+      axios.delete(`https://api.vschool.io/bryanhuffstutler/todo/${id}`)
+      output.removeChild(x)
     }
   }
 })
